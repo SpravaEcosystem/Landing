@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бізнес-екосистема для України</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+
+        .content {
+            padding: 60px 40px;
+        }
+
+        .intro-text {
+            font-size: 1.1em;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            color: #444;
+        }
+
+        .intro-text p {
+            margin-bottom: 20px;
+        }
+
+        .features {
+            margin: 40px 0;
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 15px;
+        }
+
+        .features ul {
+            list-style: none;
+        }
+
+        .features li {
+            padding: 12px 0;
+            font-size: 1.1em;
+            color: #555;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .features li:last-child {
+            border-bottom: none;
+        }
+
+        .form-section {
+            margin-top: 50px;
+            padding: 40px;
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .form-section h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            color: #667eea;
+        }
+
+        .form-section p {
+            margin-bottom: 30px;
+            color: #666;
+            font-size: 1.05em;
+        }
+
+        /* Стилі для Google Form будуть тут */
+        .google-form-container {
+            margin: 20px 0;
+        }
+
+        .footer {
+            padding: 30px 40px;
+            text-align: center;
+            background: #f8f9fa;
+            color: #888;
+            font-size: 0.9em;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .header, .content, .footer {
+                padding: 40px 30px;
+            }
+
+            .form-section {
+                padding: 30px 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.6em;
+            }
+
+            .intro-text {
+                font-size: 1em;
+            }
+
+            .features li {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Будуємо бізнес-екосистему для України</h1>
+            <p class="subtitle">Комплексне рішення для управління бізнесом</p>
+        </div>
+
+        <div class="content">
+            <div class="intro-text">
+                <p>
+                    Ми запускаємо амбітний експеримент — створити комплексне рішення для управління бізнесом, 
+                    яке справді розуміє український контекст. CRM, ERP, інтеграції з банками, державними сервісами, 
+                    AI-автоматизація — все в єдиній екосистемі.
+                </p>
+                <p>
+                    Це амбітно? Так. Складно? Безумовно. Але саме такі речі варто робити.
+                </p>
+                <p>
+                    Якщо вам цікаво стежити за розробкою, бути серед перших бета-тестерів і отримувати ранній 
+                    доступ до нових модулів — залиште свій email нижче.
+                </p>
+            </div>
+
+            <div class="features">
+                <ul>
+                    <li>🚀 Ранній доступ до бета-версій</li>
+                    <li>📬 Оновлення про ключові етапи розробки</li>
+                    <li>💡 Можливість впливати на roadmap</li>
+                    <li>🤝 Спеціальні умови для early adopters</li>
+                </ul>
+            </div>
+
+            <div class="form-section">
+                <h2>Приєднатися</h2>
+                <p>Залиште свій email, щоб бути в курсі розробки</p>
+                
+                <div class="google-form-container">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfa5cZWLP4vUQfs2UNuByencsQZD7mAAc3zqyKGNnZ9O4cC2Q/viewform?embedded=true" width="640" height="419" frameborder="0" marginheight="0" marginwidth="0">Завантаження…</iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2026 Бізнес-екосистема для України. Експериментальний проект.</p>
+        </div>
+    </div>
+</body>
+</html>
